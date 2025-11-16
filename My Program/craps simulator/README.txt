@@ -1,0 +1,4 @@
+模拟传统博彩游戏craps的流程
+在craps simulator.h中实现了一个craps类
+在test.cpp中调用，模拟输入一个种子，并输出这个种子对应的游戏结果
+并且在craps simulator for test中模拟1000000次（种子随机），检验游戏胜率和平均进行轮数，测试结果写在report.txt中
