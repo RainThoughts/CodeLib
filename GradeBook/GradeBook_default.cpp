@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-GradeBook::GradeBook() {}
+GradeBook::GradeBook() : aCount(0), bCount(0), cCount(0), dCount(0), eCount(0), fCount(0) {}
 
 GradeBook::GradeBook(std::string course_name) {
     aCount = bCount = cCount = dCount = eCount = fCount = 0;
